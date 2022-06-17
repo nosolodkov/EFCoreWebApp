@@ -1,11 +1,10 @@
-namespace EFCoreWebUnitTests
-{
-    public class UnitTest1
-    {
-        [Fact]
-        public void Test1()
-        {
+﻿namespace EFCoreWebUnitTests;
 
-        }
+public class UnitTest1
+{
+    [Fact]
+    public void Test1()
+    {
+
     }
 }

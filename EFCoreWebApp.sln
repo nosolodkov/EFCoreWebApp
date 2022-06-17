@@ -3,13 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreWeb", "src\EFCoreWeb\EFCoreWeb.csproj", "{5625D4B6-7A04-4C58-8B78-60E5F3E52607}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreWeb", "src\EFCoreWeb\EFCoreWeb.csproj", "{5625D4B6-7A04-4C58-8B78-60E5F3E52607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreDataAccessLibrary", "src\EFCoreDataAccessLibrary\EFCoreDataAccessLibrary.csproj", "{193E0581-AD70-4370-A34D-FD6BC3D32DA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreDataAccessLibrary", "src\EFCoreDataAccessLibrary\EFCoreDataAccessLibrary.csproj", "{193E0581-AD70-4370-A34D-FD6BC3D32DA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreWebUnitTests", "tests\EFCoreWebUnitTests\EFCoreWebUnitTests.csproj", "{E4B90848-8ABE-4DF1-8416-651EB87F9BB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreWebUnitTests", "tests\EFCoreWebUnitTests\EFCoreWebUnitTests.csproj", "{E4B90848-8ABE-4DF1-8416-651EB87F9BB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreWebIntegrationTests", "tests\EFCoreWebIntegrationTests\EFCoreWebIntegrationTests.csproj", "{BA43DA24-D161-472F-A780-EEFF9724D046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreWebIntegrationTests", "tests\EFCoreWebIntegrationTests\EFCoreWebIntegrationTests.csproj", "{BA43DA24-D161-472F-A780-EEFF9724D046}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24F6DFC6-EF7C-40EA-82F1-CFF11E473705}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4A792703-D5BA-4C15-8B09-205DA6F9004B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +40,10 @@ Global
 		{BA43DA24-D161-472F-A780-EEFF9724D046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA43DA24-D161-472F-A780-EEFF9724D046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA43DA24-D161-472F-A780-EEFF9724D046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A792703-D5BA-4C15-8B09-205DA6F9004B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A792703-D5BA-4C15-8B09-205DA6F9004B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A792703-D5BA-4C15-8B09-205DA6F9004B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A792703-D5BA-4C15-8B09-205DA6F9004B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

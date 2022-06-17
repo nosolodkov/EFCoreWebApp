@@ -1,6 +1,14 @@
+using EFCoreDataAccessLibrary.DataAccess;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<PeopleContext>(options =>
+{
+    var connStr = builder.Configuration.GetConnectionString("Default");
+    options.UseSqlServer(connStr);
+});
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
